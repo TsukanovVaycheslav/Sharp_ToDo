@@ -1,6 +1,4 @@
-﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.ComponentModel;
 
 namespace С_Sharp_____WPF_TODO.Models
@@ -10,12 +8,12 @@ namespace С_Sharp_____WPF_TODO.Models
         private bool _isDone;
         private string _text;
 
-        [JsonProperty(PropertyName = "creationDate")]
+       // [JsonProperty(PropertyName = "creationDate")]
         public DateTime CreationDate { get; set; } = DateTime.Now;
-        [JsonProperty(PropertyName = "isDone")]
+      //  [JsonProperty(PropertyName = "isDone")]
 
         
-        public bool IsDone
+        public bool isDone
         {
             get { return _isDone; }
             set
@@ -27,7 +25,7 @@ namespace С_Sharp_____WPF_TODO.Models
             }
         }
 
-        [JsonProperty(PropertyName = "text")]
+     //   [JsonProperty(PropertyName = "text")]
         public string Text
         {
             get { return _text; }
