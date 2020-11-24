@@ -1,20 +1,21 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace С_Sharp_____WPF_TODO.Models
 {
     class TodoModel: INotifyPropertyChanged
     {
-        public DateTime CreationDate { get; set; } = DateTime.Now;
-
         private bool _isDone;
         private string _text;
 
-        public bool isDone
+        [JsonProperty(PropertyName = "creationDate")]
+        public DateTime CreationDate { get; set; } = DateTime.Now;
+        [JsonProperty(PropertyName = "isDone")]
+
+        
+        public bool IsDone
         {
             get { return _isDone; }
             set
@@ -26,6 +27,7 @@ namespace С_Sharp_____WPF_TODO.Models
             }
         }
 
+        [JsonProperty(PropertyName = "text")]
         public string Text
         {
             get { return _text; }
