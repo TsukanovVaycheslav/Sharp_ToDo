@@ -43,27 +43,11 @@ namespace С_Sharp_____WPF_TODO
 
         private void _todoDataList_ListChanged(object sender, ListChangedEventArgs e)
         {
-            switch (e.ListChangedType)
+            if(e.ListChangedType == ListChangedType.ItemAdded || e.ListChangedType == ListChangedType.ItemDeleted || e.ListChangedType == ListChangedType.ItemChanged)
             {
-                case ListChangedType.Reset:
-                        break;
-                case ListChangedType.ItemAdded:
-                       break;
-                case ListChangedType.ItemDeleted:
-                       break;
-                case ListChangedType.ItemMoved:
-                        break;
-                case ListChangedType.ItemChanged:
-                        break;
-                case ListChangedType.PropertyDescriptorAdded:
-                        break;
-                case ListChangedType.PropertyDescriptorDeleted:
-                        break;
-                case ListChangedType.PropertyDescriptorChanged:
-                        break;
-                default:
-                        break;
+
             }
+
         }
     }
 }

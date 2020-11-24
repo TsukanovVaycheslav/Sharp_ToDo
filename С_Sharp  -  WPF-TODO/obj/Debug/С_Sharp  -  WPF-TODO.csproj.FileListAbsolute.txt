@@ -13,3 +13,6 @@ C:\Users\28032015-0\Desktop\С# - Proj\С_Sharp  -  WPF-TODO\С_Sharp  -  WPF-TO
 C:\Users\28032015-0\Desktop\С# - Proj\С_Sharp  -  WPF-TODO\С_Sharp  -  WPF-TODO\obj\Debug\С_Sharp  -  WPF-TODO.exe
 C:\Users\28032015-0\Desktop\С# - Proj\С_Sharp  -  WPF-TODO\С_Sharp  -  WPF-TODO\obj\Debug\С_Sharp  -  WPF-TODO.pdb
 C:\Users\28032015-0\Desktop\С# - Proj\С_Sharp  -  WPF-TODO\С_Sharp  -  WPF-TODO\obj\Debug\С_Sharp  -  WPF-TODO.csprojAssemblyReference.cache
+C:\Users\28032015-0\Desktop\С# - Proj\С_Sharp  -  WPF-TODO\С_Sharp  -  WPF-TODO\bin\Debug\Newtonsoft.Json.dll
+C:\Users\28032015-0\Desktop\С# - Proj\С_Sharp  -  WPF-TODO\С_Sharp  -  WPF-TODO\bin\Debug\Newtonsoft.Json.xml
+C:\Users\28032015-0\Desktop\С# - Proj\С_Sharp  -  WPF-TODO\С_Sharp  -  WPF-TODO\obj\Debug\С_Sharp  -  WPF-TODO.csproj.CopyComplete
